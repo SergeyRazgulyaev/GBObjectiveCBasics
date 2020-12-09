@@ -30,18 +30,31 @@ int main(int argc, const char * argv[]) {
         NSLog(@"%d + %d = %d", firstNumber, secondNumber, firstNumber + secondNumber);
         NSLog(@"%d - %d = %d", firstNumber, secondNumber, firstNumber - secondNumber);
         NSLog(@"%d * %d = %d", firstNumber, secondNumber, firstNumber * secondNumber);
-        NSLog(@"%d / %d = %.2f", firstNumber, secondNumber, (float)firstNumber / (float)secondNumber);
-        NSLog(@"%d %% %d = %d", firstNumber, secondNumber, firstNumber % secondNumber);
+        if (secondNumber != 0) {
+            NSLog(@"%d / %d = %.2f", firstNumber, secondNumber, (float)firstNumber / (float)secondNumber);
+            NSLog(@"%d %% %d = %d", firstNumber, secondNumber, firstNumber % secondNumber);
+        } else {
+            printf("You cannot divide by 0!\n");
+        }
         
         //One line output of the results of arithmetic operations
         printf("\nOne line output:\n");
-        NSLog(@"First number = % d, Second number = %d, Arithmetic operations: %d + %d = %d, %d - %d = %d, %d * %d = %d, %d / %d = %.2f, %d %% %d = %d",
-              firstNumber, secondNumber,
-              firstNumber, secondNumber, firstNumber + secondNumber,
-              firstNumber, secondNumber, firstNumber - secondNumber,
-              firstNumber, secondNumber, firstNumber * secondNumber,
-              firstNumber, secondNumber, (float)firstNumber / (float)secondNumber,
-              firstNumber, secondNumber, firstNumber % secondNumber);
+        if (secondNumber != 0) {
+            NSLog(@"First number = % d, Second number = %d, Arithmetic operations: %d + %d = %d, %d - %d = %d, %d * %d = %d, %d / %d = %.2f, %d %% %d = %d",
+                  firstNumber, secondNumber,
+                  firstNumber, secondNumber, firstNumber + secondNumber,
+                  firstNumber, secondNumber, firstNumber - secondNumber,
+                  firstNumber, secondNumber, firstNumber * secondNumber,
+                  firstNumber, secondNumber, (float)firstNumber / secondNumber,
+                  firstNumber, secondNumber, firstNumber % secondNumber);
+        } else {
+            NSLog(@"First number = % d, Second number = %d, Arithmetic operations: %d + %d = %d, %d - %d = %d, %d * %d = %d",
+                  firstNumber, secondNumber,
+                  firstNumber, secondNumber, firstNumber + secondNumber,
+                  firstNumber, secondNumber, firstNumber - secondNumber,
+                  firstNumber, secondNumber, firstNumber * secondNumber);
+            printf("You cannot divide by 0!\n");
+        }
         
         //User input of three numbers for calculating the average
         printf("\nCalculating the average:\nEnter three numbers!\n");
