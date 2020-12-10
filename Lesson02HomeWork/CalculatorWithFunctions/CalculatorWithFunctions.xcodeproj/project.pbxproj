@@ -7,11 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C518A9D8257F90B1003DD314 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C518A9D7257F90B1003DD314 /* main.m */; };
+		C5AEC73D258223EE00800810 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C5AEC73C258223EE00800810 /* main.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		C518A9D2257F90B0003DD314 /* CopyFiles */ = {
+		C5AEC737258223EE00800810 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -23,12 +23,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		C518A9D4257F90B1003DD314 /* Lesson02HomeWork */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Lesson02HomeWork; sourceTree = BUILT_PRODUCTS_DIR; };
-		C518A9D7257F90B1003DD314 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C5AEC739258223EE00800810 /* CalculatorWithFunctions */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CalculatorWithFunctions; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5AEC73C258223EE00800810 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		C518A9D1257F90B0003DD314 /* Frameworks */ = {
+		C5AEC736258223EE00800810 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -38,64 +38,64 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		C518A9CB257F90B0003DD314 = {
+		C5AEC730258223EE00800810 = {
 			isa = PBXGroup;
 			children = (
-				C518A9D6257F90B1003DD314 /* Lesson02HomeWork */,
-				C518A9D5257F90B1003DD314 /* Products */,
+				C5AEC73B258223EE00800810 /* CalculatorWithFunctions */,
+				C5AEC73A258223EE00800810 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		C518A9D5257F90B1003DD314 /* Products */ = {
+		C5AEC73A258223EE00800810 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C518A9D4257F90B1003DD314 /* Lesson02HomeWork */,
+				C5AEC739258223EE00800810 /* CalculatorWithFunctions */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C518A9D6257F90B1003DD314 /* Lesson02HomeWork */ = {
+		C5AEC73B258223EE00800810 /* CalculatorWithFunctions */ = {
 			isa = PBXGroup;
 			children = (
-				C518A9D7257F90B1003DD314 /* main.m */,
+				C5AEC73C258223EE00800810 /* main.m */,
 			);
-			path = Lesson02HomeWork;
+			path = CalculatorWithFunctions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C518A9D3257F90B0003DD314 /* Lesson02HomeWork */ = {
+		C5AEC738258223EE00800810 /* CalculatorWithFunctions */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C518A9DB257F90B1003DD314 /* Build configuration list for PBXNativeTarget "Lesson02HomeWork" */;
+			buildConfigurationList = C5AEC740258223EE00800810 /* Build configuration list for PBXNativeTarget "CalculatorWithFunctions" */;
 			buildPhases = (
-				C518A9D0257F90B0003DD314 /* Sources */,
-				C518A9D1257F90B0003DD314 /* Frameworks */,
-				C518A9D2257F90B0003DD314 /* CopyFiles */,
+				C5AEC735258223EE00800810 /* Sources */,
+				C5AEC736258223EE00800810 /* Frameworks */,
+				C5AEC737258223EE00800810 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Lesson02HomeWork;
-			productName = Lesson02HomeWork;
-			productReference = C518A9D4257F90B1003DD314 /* Lesson02HomeWork */;
+			name = CalculatorWithFunctions;
+			productName = CalculatorWithFunctions;
+			productReference = C5AEC739258223EE00800810 /* CalculatorWithFunctions */;
 			productType = "com.apple.product-type.tool";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		C518A9CC257F90B0003DD314 /* Project object */ = {
+		C5AEC731258223EE00800810 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1220;
 				TargetAttributes = {
-					C518A9D3257F90B0003DD314 = {
+					C5AEC738258223EE00800810 = {
 						CreatedOnToolsVersion = 12.2;
 					};
 				};
 			};
-			buildConfigurationList = C518A9CF257F90B0003DD314 /* Build configuration list for PBXProject "Lesson02HomeWork" */;
+			buildConfigurationList = C5AEC734258223EE00800810 /* Build configuration list for PBXProject "CalculatorWithFunctions" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -103,29 +103,29 @@
 				en,
 				Base,
 			);
-			mainGroup = C518A9CB257F90B0003DD314;
-			productRefGroup = C518A9D5257F90B1003DD314 /* Products */;
+			mainGroup = C5AEC730258223EE00800810;
+			productRefGroup = C5AEC73A258223EE00800810 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C518A9D3257F90B0003DD314 /* Lesson02HomeWork */,
+				C5AEC738258223EE00800810 /* CalculatorWithFunctions */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		C518A9D0257F90B0003DD314 /* Sources */ = {
+		C5AEC735258223EE00800810 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C518A9D8257F90B1003DD314 /* main.m in Sources */,
+				C5AEC73D258223EE00800810 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		C518A9D9257F90B1003DD314 /* Debug */ = {
+		C5AEC73E258223EE00800810 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -184,7 +184,7 @@
 			};
 			name = Debug;
 		};
-		C518A9DA257F90B1003DD314 /* Release */ = {
+		C5AEC73F258223EE00800810 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -236,7 +236,7 @@
 			};
 			name = Release;
 		};
-		C518A9DC257F90B1003DD314 /* Debug */ = {
+		C5AEC741258223EE00800810 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -244,7 +244,7 @@
 			};
 			name = Debug;
 		};
-		C518A9DD257F90B1003DD314 /* Release */ = {
+		C5AEC742258223EE00800810 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -255,25 +255,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C518A9CF257F90B0003DD314 /* Build configuration list for PBXProject "Lesson02HomeWork" */ = {
+		C5AEC734258223EE00800810 /* Build configuration list for PBXProject "CalculatorWithFunctions" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C518A9D9257F90B1003DD314 /* Debug */,
-				C518A9DA257F90B1003DD314 /* Release */,
+				C5AEC73E258223EE00800810 /* Debug */,
+				C5AEC73F258223EE00800810 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C518A9DB257F90B1003DD314 /* Build configuration list for PBXNativeTarget "Lesson02HomeWork" */ = {
+		C5AEC740258223EE00800810 /* Build configuration list for PBXNativeTarget "CalculatorWithFunctions" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C518A9DC257F90B1003DD314 /* Debug */,
-				C518A9DD257F90B1003DD314 /* Release */,
+				C5AEC741258223EE00800810 /* Debug */,
+				C5AEC742258223EE00800810 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = C518A9CC257F90B0003DD314 /* Project object */;
+	rootObject = C5AEC731258223EE00800810 /* Project object */;
 }
