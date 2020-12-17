@@ -8,7 +8,7 @@
 #import "Student.h"
 
 @implementation Student
-@synthesize age;
+@synthesize age, fullName;
 
 - (instancetype) initWithName: (NSString *) name surname: (NSString *) surname andAge: (int) age {
     self = [super init];
@@ -23,6 +23,10 @@
 
 - (NSString *) description {
     return [NSString stringWithFormat:@"%@ is a %d year old student", self.fullName, self.age];
+}
+
+- (void) setFullName: (NSString *) studentFullName {
+    fullName = studentFullName;
 }
 
 - (void) setAge: (int) studentAge {

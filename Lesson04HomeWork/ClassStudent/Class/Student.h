@@ -12,7 +12,7 @@ NS_ASSUME_NONNULL_BEGIN
 @interface Student : NSObject
 @property (nonatomic, strong) NSString *name;
 @property (nonatomic, strong) NSString *surname;
-@property (nonatomic, strong) NSString *fullName;
+@property (nonatomic, readonly) NSString *fullName;
 @property (nonatomic, readonly) int age;
 
 - (instancetype) initWithName: (NSString *) name surname: (NSString *) surname andAge: (int) age;
